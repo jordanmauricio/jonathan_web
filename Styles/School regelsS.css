@@ -1,0 +1,152 @@
+*{
+
+  
+
+}
+
+.logoa {
+
+ float: left;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+  position: absolute;
+
+}
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color:  #333399;
+    font-size: 20px;
+    font-family: 'Baloo Bhaina', cursive;
+    box-shadow: 5px 5px 5px grey;
+    z-index: 1;
+    
+ }
+
+ body {
+    margin: 0;
+    text-align: center;
+}
+
+ li {
+    float: left;
+    position: relative;
+    left: 105px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+
+    background: #9966ff ;
+}
+
+.outer {
+
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+
+.r15 {
+
+    display: inline-block;
+    border: 5px solid #062F4F;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 800px;
+    position: relative;
+    right: -35px;
+    top: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+
+
+}
+
+.r15, .outer {
+    display: inline-block;
+}
+
+.outer2 {
+
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+
+.r612 {
+
+    display: inline-block;
+    border: 5px solid #062F4F;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 800px;
+    position: relative;
+    right: -35px;
+    top: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+
+}
+
+.r612, .outer2 {
+    display: inline-block;
+}
+
+.outer3 {
+
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+
+.r1317 {
+
+    display: inline-block;
+    border: 5px solid #062F4F;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 800px;
+    position: relative;
+    right: 70px;
+    top: 1620px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+
+}
+
+.r1317, .outer3 {
+    display: inline-block;
+}
+
+.rules {
+    position: absolute;
+    top: 2300px;
+    right: 300px;
+}
+
+#numbers {
+
+    color: #00cc00;
+}
+
+
