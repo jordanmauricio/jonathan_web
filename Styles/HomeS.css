@@ -3,12 +3,25 @@ body {
     text-align: center;
 }
 
+Header {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 .logoa {
-    float: left;
     width: 100px;
     height: 100px;
     z-index: 2;
     position: absolute;
+}
+
+.navbar {
+    background-color:  #333399;
+    box-shadow: 5px 5px 5px grey;
+    width:100%;
 }
   
 ul {
@@ -16,11 +29,24 @@ ul {
     margin: 0;
     padding: 10;
     overflow: hidden;
-    background-color:  #333399;
     font-size: 20px;
     font-family: 'Baloo Bhaina', cursive;
-    box-shadow: 5px 5px 5px grey;
     z-index: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+ }
+
+ @media all and (max-width:800px){
+     Header ul {
+         justify-content: space-around;
+     }
+ }
+
+ @media all and (max-width: 500px){
+     Header ul {
+         flex-direction: column;
+     }
  }
 
 li {
