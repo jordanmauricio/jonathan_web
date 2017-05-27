@@ -3,6 +3,8 @@
 body {
     margin: 0;
     text-align: center;
+    background-image: url("../Pictures/button.svg");
+    background-repeat: repeat;
 }
 
 Content {
