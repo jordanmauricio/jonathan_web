@@ -1,17 +1,14 @@
-*{
-
-
+body {
+    margin: 0;
+    text-align: center;
 }
 
 .logoa {
-
- float: left;
-  width: 100px;
-  height: 100px;
-  z-index: 2;
-  position: absolute;
-
-
+    float: left;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    position: absolute;
 }
   
 ul {
@@ -22,22 +19,15 @@ ul {
     background-color:  #333399;
     font-size: 20px;
     font-family: 'Baloo Bhaina', cursive;
-     box-shadow: 5px 5px 5px grey;
-     z-index: 1;
-
+    box-shadow: 5px 5px 5px grey;
+    z-index: 1;
  }
- 
- body {
-    margin: 0;
-    text-align: center;
-}
 
- li {
+li {
     float: left;
     position: relative;
     left: 105px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 li a {
@@ -47,23 +37,17 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     text-align: center;
-    
 }
 
 li a:hover {
     background-color: #111;
-
 }
 
 .active {
-
     background: #9966ff ;
-    
 }
 
 .slideshow {
-
-   
    display: inline-block;
    position: relative;
    border: 5px solid #062F4F ;
@@ -72,23 +56,18 @@ li a:hover {
    top: 50px;
    width: 100%;
    right: -250px;
-
-  
 }
 
 .mainpic {
-
   height: 250px;
   width: 0px;
 }
 
 .maint {
-
   text-align: left;
   padding-left: 100px;
   top: -220px;
   position: relative;
   font-family: 'Montserrat', sans-serif;
   color: #062F4F;
-
 }
