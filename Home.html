@@ -1,65 +1,57 @@
 <!doctype HTML>
-
 <html>
+<head>
+    <title> Jonathan </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Styles/HomeS.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
+</head>
 
-  <head>
-<title> Jonathan </title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="Styles/HomeS.css">
-<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina"
- rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
-  </head>
+<body background="Pictures/button.svg">
 
+    <div class="logoa">
+        <a href="Home.html"><img src="Pictures/Logo ASHV.png" /></a>
+    </div>
 
-   <body background="Pictures/button.svg">
+    <div class="navbar" id="navbar">
+        <ul>
+            <li><a class="active" href="Home.html">Home</a></li>
+            <li><a href="Pages/School regels.html">School regels</a></li>
+            <li><a href="Pages/Geschiedenis.html">Geschiedenis</a></li>
+            <li><a href="Pages/Onze Stichting.html">Somtoday</a></li>
+            <li><a href="Pages/Contact.html">Contact</a></li>
+        </ul>
+    </div>
 
-   <div class="logoa">
-   <a href="Home.html"><img src="Pictures/Logo ASHV.png" /></a>
+    <div class="slideshow" style="max-width: 500px">
+        <img class="mainpic"  src="Pictures/SchoolS.jpg" align="center" style="width:100%">
+        <img class="mainpic"  src="Pictures/SchoolS5.jpg" align="center" style="width:100%">
+        <img class="mainpic" src="Pictures/SchoolS3.jpg" align="center" style="width:100%">
+        <img class="mainpic"  src="Pictures/SchoolS4.jpg" align="center" style="width:100%">
+        <img class="mainpic" src="Pictures/SchoolS2.jpg" align="center" style="width:100%">
+    </div>
 
-   </div>
+    <div class="maint">
+        <h2> Dr. AlbertSchweitzer HAVO/VWO </h2>
+    </div>
 
-  <div class="navbar" id="navbar">
-  <ul>
-  <li><a class="active" href="Home.html">Home</a></li>
-  <li><a href="Pages/School regels.html">School regels</a></li>
-  <li><a href="Pages/Geschiedenis.html">Geschiedenis</a></li>
-  <li><a href="Pages/Onze Stichting.html">Somtoday</a></li>
-  <li><a href="Pages/Contact.html">Contact</a></li>
-</ul>
-  
-  <div class="slideshow" style="max-width: 500px">
-  <img class="mainpic"  src="Pictures/SchoolS.jpg" align="center" style="width:100%">
-  <img class="mainpic"  src="Pictures/SchoolS5.jpg" align="center" style="width:100%">
-  <img class="mainpic" src="Pictures/SchoolS3.jpg" align="center" style="width:100%">
-  <img class="mainpic"  src="Pictures/SchoolS4.jpg" align="center" style="width:100%">
-  <img class="mainpic" src="Pictures/SchoolS2.jpg" align="center" style="width:100%">
-</div>
+</body>
 
 <script>
-var myIndex = 0;
-carousel();
+    var myIndex = 0;
+    carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mainpic");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";  
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mainpic");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2500);    
     }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2500);    
-}
 </script>
-
-<div class="maint">
-
-<h2> Dr. AlbertSchweitzer HAVO/VWO </h2>
-
-
-</div>
-  </body>
-
-
-  </html>
+</html>
