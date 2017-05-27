@@ -2,9 +2,10 @@
 
 body {
     margin: 0;
-    text-align: center;
+    padding: 0;
     background-image: url("../Pictures/background.png");
     background-repeat: repeat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 Content {
@@ -27,6 +28,5 @@ Content {
 
 h2 {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
   color: #062F4F;
 }

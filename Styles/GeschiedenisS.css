@@ -1,10 +1,11 @@
 @import "navbar.css";
 
-body{
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
     background-image: url("../Pictures/background.png");
     background-repeat: repeat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 Content {
@@ -20,7 +21,6 @@ Content {
     width:auto;
     padding: 10px;
     border: 5px solid #062F4F  ;
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #333;
 }

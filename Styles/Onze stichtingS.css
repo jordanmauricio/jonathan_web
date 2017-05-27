@@ -1,8 +1,8 @@
 @import "navbar.css";
 
-body{
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
     background-image: url("../Pictures/background.png");
     background-repeat: repeat;
     font-family: 'Montserrat', sans-serif;
