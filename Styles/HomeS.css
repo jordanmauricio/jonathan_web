@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../Pictures/background.png");
+    background-image: url("../Pictures/button.png");
     background-repeat: repeat;
     font-family: 'Montserrat', sans-serif;
 }
@@ -29,4 +29,10 @@ Content {
 h2 {
   text-align: center;
   color: #062F4F;
+}
+
+.Text {
+
+  text-align: center;
+  font-size: 25px;
 }
