@@ -6,6 +6,7 @@ body{
     background-image: url("../Pictures/button.svg");
     background-repeat: repeat;
 }
+
 Content {
     display:flex;
     flex-direction: column;

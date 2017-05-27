@@ -1,67 +1,28 @@
-*{
+@import "navbar.css";
 
-
+body{
+    margin:0;
+    padding:0;
+    background-image: url("../Pictures/button.svg");
+    background-repeat: repeat;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.logoa {
-
- float: left;
-  width: 100px;
-  height: 100px;
-  z-index: 2;
-  position: absolute;
-
-
-}
-  
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10;
-    overflow: hidden;
-    background-color:  #333399;
-    font-size: 20px;
-    font-family: 'Baloo Bhaina', cursive;
-     box-shadow: 5px 5px 5px grey;
-     z-index: 1;
- }
- 
- body {
-    margin: 0;
-    text-align: center;
-}
-
- li {
-    float: left;
-    position: relative;
-    left: 105px;
-    
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-.active {
-
-    background: #9966ff ;
+Content {
+    display:flex;
+    flex-direction:column;
 }
 
 .SOM {
-
-   text-align: center;
-    margin: 100px;
+    margin: auto;
     padding: 5px;
-    border: 5px solid #062F4F  ;
+    border: 5px solid #062F4F;
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    text-align: center;
     color: #333;
+    margin-top:50px;
+}
+
+.SOM a {
+    color: #00cc00;
 }
